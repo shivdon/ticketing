@@ -1,0 +1,19 @@
+import { Ticket } from "../tickets";
+
+it("Optimistic concurrency version control", async () => {
+  const ticket = await Ticket.build({
+    title: "concert",
+    price: 5,
+    userId: "123",
+  }).save();
+
+  const firstInstance = await Ticket.findById(ticket.id);
+  const secondInstance = await Ticket.findById(ticket.id);
+
+  firstInstance!.set({ price: 10 });
+  secondInstance!.set({ price: 15 });
+
+  await firstInstance!.save();
+
+  await secondInstance!.save();
+});
