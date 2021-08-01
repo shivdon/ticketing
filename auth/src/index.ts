@@ -3,6 +3,7 @@ import { DatabaseConnectionError } from "@reshu-tickets/micro-ticket";
 import { app } from "./app";
 
 const start = async () => {
+  console.log("Starting Up....");
   if (!process.env.JWT_KEY) {
     throw new Error("JWT_KEY is undefined");
   }
