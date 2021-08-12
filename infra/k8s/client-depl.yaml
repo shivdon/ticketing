@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/semiotic-tracer-318406/client
+          image: shivdon/client
 
 ---
 apiVersion: v1

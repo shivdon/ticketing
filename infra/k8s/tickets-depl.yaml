@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets
-          image:  us.gcr.io/semiotic-tracer-318406/tickets
+          image:  shivdon/tickets
           env: 
             - name: JWT_KEY
               valueFrom:
