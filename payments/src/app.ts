@@ -19,7 +19,7 @@ app.use(currentUser);
 app.use(createChargeRouter);
 
 app.all("*", async (req, res) => {
-  throw new Error("Page Not Found");
+  throw new Error("Page Not Found!");
 });
 
 app.use(errorHandler);
