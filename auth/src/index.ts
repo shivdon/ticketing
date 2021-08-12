@@ -19,7 +19,7 @@ const start = async () => {
       useFindAndModify: false,
     });
 
-    console.log("database connected...hurray");
+    console.log("database connected...hurray.....");
     app.listen(4000, () => {
       console.log("listening on port 4000!!");
     });
