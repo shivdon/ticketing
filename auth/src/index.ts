@@ -21,7 +21,7 @@ const start = async () => {
 
     console.log("database connected...");
     app.listen(4000, () => {
-      console.log("listening on port 4000");
+      console.log("listening on port 4000!!");
     });
   } catch (err) {
     console.log(err + "\n\n");
