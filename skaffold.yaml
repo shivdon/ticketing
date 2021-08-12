@@ -10,7 +10,7 @@ build:
   googleCloudBuild:
     projectId: semiotic-tracer-318406
   artifacts:
-    - image: us.gcr.io/semiotic-tracer-318406/auth
+    - image: shivdon/auth
       context: auth
       docker: 
         dockerfile: Dockerfile
@@ -18,7 +18,7 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/semiotic-tracer-318406/client
+    - image: shivdon/client
       context: client
       docker: 
         dockerfile: Dockerfile
@@ -26,7 +26,7 @@ build:
         manual: 
           - src: '**/*.js'
             dest: .
-    - image: us.gcr.io/semiotic-tracer-318406/tickets
+    - image: shivdon/tickets
       context: tickets
       docker: 
         dockerfile: Dockerfile
@@ -34,7 +34,7 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/semiotic-tracer-318406/orders
+    - image: shivdon/orders
       context: orders
       docker: 
         dockerfile: Dockerfile
@@ -42,7 +42,7 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/semiotic-tracer-318406/expiration
+    - image: shivdon/expiration
       context: expiration
       docker: 
         dockerfile: Dockerfile
@@ -50,7 +50,7 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/semiotic-tracer-318406/payments
+    - image: shivdon/payments
       context: payments
       docker: 
         dockerfile: Dockerfile

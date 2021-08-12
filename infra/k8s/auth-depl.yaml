@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image:  us.gcr.io/semiotic-tracer-318406/auth
+          image:  shivdon/auth
           env: 
             - name: JWT_KEY
               valueFrom:
