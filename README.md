@@ -1,7 +1,7 @@
 <h1 align=center>Ticketing</h1>
 <br>
 <br>
-This is one of my largest backend projects in Microservices with * nodejs * and *React*.
+This is one of my largest backend projects in Microservices with <b>Node</b> and <b>React</b>
 The services in this ticketing system are:
 <br>
 - payments
