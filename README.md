@@ -4,6 +4,12 @@
 This is one of my largest backend projects in Microservices with <b>Node</b> and <b>React</b>
 The services in this ticketing system are:
 <br>
+
+Group Members for the project:-
+<ul>
+  <li>Reshika Gupta</li>
+  <li>Shivansh Mehta</li>
+ </ul>
 <ul>
   <li>payments</li>
   <li>tickets</li>
