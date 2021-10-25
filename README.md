@@ -7,10 +7,14 @@ The services in this ticketing system are:
 
 Group Members for the project:-
 <ul>
-  <li>Reshika Gupta</li>
-  <li>Shivansh Mehta</li>
+  <li><b>Reshika Gupta</b></li>
+  <li><b>Shivansh Mehta</b></li>
  </ul>
 <ul>
+  
+  <br>
+  <br>
+  The services in this ticketing system are:
   <li>payments</li>
   <li>tickets</li>
   <li> orders</li>
